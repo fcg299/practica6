@@ -1,4 +1,4 @@
-package ual.hmis.asignatura;
+package ual.hmis.sesion06;
 
 import static org.junit.jupiter.api.Assertions.*;
 

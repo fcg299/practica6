@@ -1,12 +1,16 @@
-package ual.hmis.asignatura;
+package ual.hmis.sesion06;
 
 import java.util.ArrayList;
 import java.util.*;
 
 public class Profesor {
 
-	private ArrayList<Alumno> alumnosDePracticas;
+	private ArrayList<Alumno> alumnosDePracticas = new ArrayList<Alumno>();
 
+	public ArrayList<Alumno> getAlumnos() {
+		return alumnosDePracticas;
+	}
+	
 	public void calificarAlumnos() {
 
 		for(int i=0; i<alumnosDePracticas.size(); i++) {

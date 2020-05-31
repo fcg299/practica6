@@ -1,4 +1,4 @@
-package ual.hmis.asignatura;
+package ual.hmis.sesion06;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -15,19 +15,19 @@ import org.junit.jupiter.params.provider.CsvSource;
 class Ejercicio7Test {
 
 	@ParameterizedTest (name = "{index} => Naciendo en ({0}) estas cursando {1}")
-	@CsvSource({"2017, 1º  Educación Infantil",
-				"2016, 2º  Educación Infantil",
-				"2015, 3º  Educación Infantil",
-				"2014, 1º  Educación Primaria",
-				"2013, 2º  Educación Primaria",
-				"2012, 3º  Educación Primaria",
-				"2011, 4º  Educación Primaria",
-				"2010, 5º  Educación Primaria",
-				"2009, 6º  Educación Primaria",
-				"2008, 1º  Educación Secundaria",
-				"2007, 2º  Educación Secundaria",
-				"2006, 3º  Educación Secundaria",
-				"2005, 4º  Educación Secundaria",
+	@CsvSource({"2017, 1 Educacion Infantil",
+				"2016, 2 Educacion Infantil",
+				"2015, 3 Educacion Infantil",
+				"2014, 1 Educacion Primaria",
+				"2013, 2 Educacion Primaria",
+				"2012, 3 Educacion Primaria",
+				"2011, 4 Educacion Primaria",
+				"2010, 5 Educacion Primaria",
+				"2009, 6 Educacion Primaria",
+				"2008, 1 Educacion Secundaria",
+				"2007, 2 Educacion Secundaria",
+				"2006, 3 Educacion Secundaria",
+				"2005, 4 Educacion Secundaria",
 				"2004, No esta en educacion obligatoria"})
 	
 	void testNotaAsignaturas(int input, String expected) {
